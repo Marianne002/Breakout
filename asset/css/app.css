@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+main {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.emoji {
+    font-family: apple color emoji, segoe ui emoji, noto color emoji,
+    android emoji, emojisymbols, emojione mozilla, twemoji mozilla,
+    segoe ui symbol;
+}
+
+#breakout-canvas {
+    background-size: contain;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(41,121,9,1) 25%, rgba(0,212,255,1) 78%);
+    background-repeat: no-repeat;
+}
+
+.breakout-informations {
+    font-family: monospace;
+    font-size: 1.2em;
+}
